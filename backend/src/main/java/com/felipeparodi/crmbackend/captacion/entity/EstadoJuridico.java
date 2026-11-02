@@ -1,0 +1,16 @@
+package com.felipeparodi.crmbackend.captacion.entity;
+
+public enum EstadoJuridico {
+    LIBRE,
+    HIPOTECA,
+    LEASING,
+    PATRIMONIO_DE_FAMILIA,
+    VIVIENDA_FAMILIAR,
+    EMBARGO,
+    PROCESO_INSOLVENCIA,
+    SUCESION_POR_REALIZAR,
+    SUCESION_EN_CURSO,
+    DERECHO_DE_PREFERENCIA,
+    PROHIBICION_DE_VENTA,
+    LEASING_HABITACIONAL
+}

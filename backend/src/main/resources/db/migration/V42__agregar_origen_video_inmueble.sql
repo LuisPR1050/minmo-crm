@@ -1,0 +1,3 @@
+ALTER TABLE video_inmueble
+    ADD COLUMN origen VARCHAR(20) NOT NULL DEFAULT 'LINK_EXTERNO',
+    ADD COLUMN tipo_contenido VARCHAR(50);

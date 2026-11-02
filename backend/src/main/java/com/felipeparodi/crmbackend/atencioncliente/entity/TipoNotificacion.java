@@ -1,0 +1,11 @@
+package com.felipeparodi.crmbackend.atencioncliente.entity;
+
+public enum TipoNotificacion {
+    RECORDATORIO_VISITA_24H,
+    RECORDATORIO_VISITA_2H,
+    ALERTA_SEGUIMIENTO,
+    VENCIMIENTO_CONTRATO_CORRETAJE,
+    FIRMA_PROMESA_PROXIMA,
+    PAGO_PENDIENTE_VENCIDO,
+    PUBLICACION_ANTIGUA_SIN_CONTACTOS
+}

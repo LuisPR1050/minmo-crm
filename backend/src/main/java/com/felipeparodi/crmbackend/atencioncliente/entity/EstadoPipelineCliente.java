@@ -1,0 +1,15 @@
+package com.felipeparodi.crmbackend.atencioncliente.entity;
+
+public enum EstadoPipelineCliente {
+    CONTACTO_INICIADO,
+    CONTACTO_CALIFICADO,
+    OPCIONES_ENVIADAS,
+    CITA_AGENDADA,
+    VISITA_REALIZADA,
+    VISITAR_OTRAS_PROPIEDADES,
+    EN_NEGOCIACION,
+    ESPERANDO_FIRMA_ESCRITURA,
+    EN_REGISTRO,
+    NEGOCIO_CERRADO_GANADO,
+    NEGOCIO_PERDIDO
+}

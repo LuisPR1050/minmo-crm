@@ -1,0 +1,18 @@
+# Backend
+backend/target/
+backend/uploads/
+backend/src/main/resources/application-local.properties
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Git / IDE / docs
+.git/
+.gitignore
+.vscode/
+.idea/
+docs/
+requerimientos/
+README.md
+docker-compose.yml

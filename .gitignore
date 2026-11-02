@@ -1,0 +1,16 @@
+node_modules/
+
+# Variables de entorno y configuración local (nunca subir credenciales)
+.env*
+!frontend/.env
+!.env.example
+backend/src/main/resources/application-local.properties
+
+# Archivos subidos en desarrollo
+backend/uploads/
+uploads/
+
+# Sistema / IDE
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,14 @@
+package com.felipeparodi.crmbackend.negociacion.entity;
+
+public enum EstadoNegociacion {
+    NEGOCIACION_INICIADA,
+    OFERTA_PRESENTADA,
+    CONTRAOFERTA,
+    ACUERDO_VERBAL,
+    ESPERANDO_FINANCIACION,
+    ESPERANDO_FIRMA_PROMESA,
+    ESPERANDO_ESCRITURA,
+    NEGOCIO_CERRADO,
+    NEGOCIO_PERDIDO,
+    NEGOCIO_EN_RIESGO
+}
